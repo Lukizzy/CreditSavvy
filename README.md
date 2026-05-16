@@ -31,12 +31,12 @@ credit_risk_dashboard/
 │   └── credit_data.csv       # Auto-generated after running prepare_data.py
 │
 ├── models/
-│   ├── __init__.py              # Trains both models, saves artefacts
-│   ├── features_names.pkl        # Best model (auto-generated)
-│   ├── model.pkl          # Logistic Regression pipeline
-│   ├── predictor.py          # Random Forest pipeline
-│   └── train_model.py       # Metrics and feature metadata
-│   └──scaler.pkl    # Metrics and feature metadata
+│   ├── __init__.py               
+│   ├── features_names.pkl         
+│   ├── model.pkl           
+│   ├── predictor.py           
+│   └── train_model.py        
+│   └──scaler.pkl    
 │
 ├── app/
 │   └── app.py          # Main Streamlit application
