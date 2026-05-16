@@ -31,14 +31,15 @@ credit_risk_dashboard/
 │   └── credit_data.csv       # Auto-generated after running prepare_data.py
 │
 ├── models/
-│   ├── train.py              # Trains both models, saves artefacts
-│   ├── best_model.pkl        # Best model (auto-generated)
-│   ├── lr_model.pkl          # Logistic Regression pipeline
-│   ├── rf_model.pkl          # Random Forest pipeline
-│   └── model_meta.json       # Metrics and feature metadata
+│   ├── __init__.py              # Trains both models, saves artefacts
+│   ├── features_names.pkl        # Best model (auto-generated)
+│   ├── model.pkl          # Logistic Regression pipeline
+│   ├── predictor.py          # Random Forest pipeline
+│   └── train_model.py       # Metrics and feature metadata
+│   └──scaler.pkl    # Metrics and feature metadata
 │
 ├── app/
-│   └── dashboard.py          # Main Streamlit application
+│   └── app.py          # Main Streamlit application
 │
 ├── utils/
 │   └── explainer.py          # SHAP explainability utilities
@@ -273,4 +274,4 @@ without independent legal, ethical, and regulatory review.
 
 ---
 
-*CreditSavvy — Developed by [Your Name] | CETM46 | University of Sunderland | 2025*
+*CreditSavvy — Developed by OLAWALE LUKMAN OLATUNDE | CETM46 | University of Sunderland | 2026*
