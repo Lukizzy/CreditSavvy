@@ -2,7 +2,7 @@
 
 **CETM46 Data Science Product Development — University of Sunderland**
 *Module Leader: Dr Ming Jiang | Assessment 2 of 2*
-
+Here is the link to the webapp hosted on streamlit via github: https://creditsavvyapp.streamlit.app/
 ---
 
 ## Overview
